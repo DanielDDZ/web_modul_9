@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "web_modul_9"
+version = "0.1.0"
+description = ""
+authors = ["Daniel Zubov <https://github.com/DanielDDZ>"]
+readme = "README.md"
+packages = [{include = "web_modul_9"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scrapy = "^2.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
